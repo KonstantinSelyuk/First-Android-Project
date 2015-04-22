@@ -5,9 +5,8 @@ public class MainClass {
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 		MainClass mc = new MainClass();
-		// Âèêëè÷åìî ôóíêö³þ, ³ ïåðåâ³ðèìî ïðàâèëüí³ñòü ðåçóëüòàòó
 		double x = 23.4;
-		double y = mc.function(23.4);
+		double y = mc.function(x);
 		System.out.println("x = " + x + "; and y = " + y);
 
 	}

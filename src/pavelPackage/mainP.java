@@ -4,7 +4,6 @@ public class mainP {
 	public static void main(String[] args) {
 		System.out.println("Hello World, Pasha!");
 		mainP mc = new mainP();
-		// Викличемо функцію, і перевіримо правильність результату
 		
 		double x = 0;
 		double y = mc.function(x);
