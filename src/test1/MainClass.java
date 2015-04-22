@@ -5,7 +5,7 @@ public class MainClass {
 	public static void main(String[] args) {
 		System.out.println("Hello World");
 		MainClass mc = new MainClass();
-		// Âèêëè÷åìî ôóíêö³þ, ³ ïåðåâ³ðèìî ïðàâèëüí³ñòü ðåçóëüòàòó
+		// Ã‚Ã¨ÃªÃ«Ã¨Ã·Ã¥Ã¬Ã® Ã´Ã³Ã­ÃªÃ¶Â³Ã¾, Â³ Ã¯Ã¥Ã°Ã¥Ã¢Â³Ã°Ã¨Ã¬Ã® Ã¯Ã°Ã Ã¢Ã¨Ã«Ã¼Ã­Â³Ã±Ã²Ã¼ Ã°Ã¥Ã§Ã³Ã«Ã¼Ã²Ã Ã²Ã³
 		double x = 23.4;
 		double y = mc.function(23.4);
 		System.out.println("x = " + x + "; and y = " + y);
@@ -18,7 +18,7 @@ public class MainClass {
 		if(Math.cos(x * x) >= 0) {
 			y = Math.sqrt(Math.cos(x * x));
 		} else {
-			System.out.println("Incorrect input value x!");
+//			System.out.println("Incorrect input value x!");
 		}
 		return y;
 	}
