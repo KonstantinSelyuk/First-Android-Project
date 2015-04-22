@@ -8,7 +8,7 @@ public class mainP {
 		
 		double x = 0;
 		double y = mc.function(x);
-		System.out.println("x = " + x + "; and y = " + y);
+		System.out.println("x = " + x  + "; and y = " + y);
 	}
 	public double function (double x) {
 		
